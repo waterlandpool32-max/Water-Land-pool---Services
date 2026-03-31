@@ -1,7 +1,8 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
-import { ChevronRight, CheckCircle2 } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface ServiceDetailProps {
   title: string;
@@ -38,17 +39,17 @@ export default function ServiceDetail({ title, subtitle, description, included, 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             <div className="lg:col-span-2 space-y-12">
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold text-brand-dark">Overview</h2>
+                <h2 className="text-3xl font-bold text-brand-dark">{t('service_overview')}</h2>
                 <p className="text-slate-600 leading-relaxed text-lg">
                   {description}
                 </p>
-                <a href="/contact" className="btn-primary inline-block">
-                  {t('form_submit')}
-                </a>
+                <Link to="/contact" className="btn-primary inline-block">
+                  {t('cta_estimate')}
+                </Link>
               </div>
 
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold text-brand-dark">What's Included</h2>
+                <h2 className="text-3xl font-bold text-brand-dark">{t('service_included')}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {included.map((item, idx) => (
                     <div key={idx} className="flex items-center space-x-3 text-slate-600">
@@ -61,7 +62,7 @@ export default function ServiceDetail({ title, subtitle, description, included, 
 
               {gallery && gallery.length > 0 && (
                 <div className="space-y-8 pt-8 border-t border-slate-100">
-                  <h2 className="text-3xl font-bold text-brand-dark">Service Gallery</h2>
+                  <h2 className="text-3xl font-bold text-brand-dark">{t('service_gallery')}</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {gallery.map((img, idx) => (
                       <motion.div
@@ -70,14 +71,15 @@ export default function ServiceDetail({ title, subtitle, description, included, 
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: idx * 0.1 }}
-                        className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg"
+                        className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg group cursor-pointer relative"
                       >
                         <img 
                           src={img} 
                           alt={`${title} gallery ${idx + 1}`}
-                          className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                           referrerPolicy="no-referrer"
                         />
+                        <div className="absolute inset-0 bg-brand-dark/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       </motion.div>
                     ))}
                   </div>
@@ -87,7 +89,7 @@ export default function ServiceDetail({ title, subtitle, description, included, 
 
             <div className="space-y-8">
               <div className="bg-slate-50 p-8 rounded-3xl space-y-6">
-                <h3 className="text-xl font-bold text-brand-dark">Who This Service Is For</h3>
+                <h3 className="text-xl font-bold text-brand-dark">{t('service_for_who')}</h3>
                 <ul className="space-y-3">
                   {forWho.map((item, idx) => (
                     <li key={idx} className="flex items-start space-x-3 text-sm text-slate-600">
@@ -99,7 +101,7 @@ export default function ServiceDetail({ title, subtitle, description, included, 
               </div>
 
               <div className="bg-brand-dark p-8 rounded-3xl text-white space-y-4">
-                <h3 className="text-xl font-bold">Why Choose Waterland Pool's</h3>
+                <h3 className="text-xl font-bold">{t('service_why_us')}</h3>
                 <p className="text-sm text-slate-300 leading-relaxed">
                   {whyUs}
                 </p>

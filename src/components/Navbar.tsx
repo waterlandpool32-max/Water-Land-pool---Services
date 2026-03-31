@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { Menu, X, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -32,21 +32,21 @@ export default function Navbar() {
     <nav className="fixed w-full z-50 transition-all duration-300 bg-white shadow-md py-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a href="/" className="flex items-center text-slate-700">
+          <Link to="/" className="flex items-center text-slate-700">
             <img 
               src="https://i.postimg.cc/Dwjpnqm1/Logo-Waterland-Pools-removebg-preview.png" 
               alt="Waterland Pools" 
               className="h-[77px] w-auto transition-all"
               referrerPolicy="no-referrer"
             />
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.path}
-                href={link.path}
+                to={link.path}
                 className={`text-sm font-medium transition-colors hover:text-brand-light ${
                   location.pathname === link.path 
                     ? 'text-brand-light' 
@@ -54,7 +54,7 @@ export default function Navbar() {
                 }`}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
             
             <button
@@ -65,9 +65,9 @@ export default function Navbar() {
               <span className="text-xs font-bold uppercase">{language}</span>
             </button>
 
-            <a href="/contact" className="btn-primary py-2 text-sm">
+            <Link to="/contact" className="btn-primary py-2 text-sm">
               {t('cta_estimate')}
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -99,23 +99,23 @@ export default function Navbar() {
           >
             <div className="px-4 pt-2 pb-6 space-y-1">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.path}
-                  href={link.path}
+                  to={link.path}
                   onClick={() => setIsOpen(false)}
                   className="block px-3 py-4 text-base font-medium text-slate-700 hover:text-brand-light hover:bg-slate-50 rounded-lg"
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
               <div className="pt-4">
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   onClick={() => setIsOpen(false)}
                   className="block w-full text-center btn-primary"
                 >
                   {t('cta_estimate')}
-                </a>
+                </Link>
               </div>
             </div>
           </motion.div>

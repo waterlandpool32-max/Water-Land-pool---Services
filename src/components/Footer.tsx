@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 
@@ -11,14 +12,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img 
                 src="https://i.postimg.cc/Dwjpnqm1/Logo-Waterland-Pools-removebg-preview.png" 
                 alt="Waterland Pools" 
                 className="h-[102px] w-auto brightness-0 invert"
                 referrerPolicy="no-referrer"
               />
-            </a>
+            </Link>
             <p className="text-slate-300 text-sm leading-relaxed">
               {t('footer_description')}
             </p>
@@ -31,11 +32,11 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6">{t('footer_quick_links')}</h4>
             <ul className="space-y-3 text-slate-300 text-sm">
-              <li><a href="/home" className="hover:text-brand-light transition-colors">{t('nav_home')}</a></li>
-              <li><a href="/about" className="hover:text-brand-light transition-colors">{t('nav_about')}</a></li>
-              <li><a href="/" className="hover:text-brand-light transition-colors">{t('nav_services')}</a></li>
-              <li><a href="/portfolio" className="hover:text-brand-light transition-colors">{t('nav_portfolio')}</a></li>
-              <li><a href="/testimonials" className="hover:text-brand-light transition-colors">{t('nav_testimonials')}</a></li>
+              <li><Link to="/home" className="hover:text-brand-light transition-colors">{t('nav_home')}</Link></li>
+              <li><Link to="/about" className="hover:text-brand-light transition-colors">{t('nav_about')}</Link></li>
+              <li><Link to="/" className="hover:text-brand-light transition-colors">{t('nav_services')}</Link></li>
+              <li><Link to="/portfolio" className="hover:text-brand-light transition-colors">{t('nav_portfolio')}</Link></li>
+              <li><Link to="/testimonials" className="hover:text-brand-light transition-colors">{t('nav_testimonials')}</Link></li>
             </ul>
           </div>
 

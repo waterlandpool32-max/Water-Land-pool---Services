@@ -129,4 +129,9 @@ export const translations: Translation = {
   footer_contact_us: { en: 'Contact Us', es: 'Contáctenos' },
   footer_free_estimates: { en: 'Free In-Person Estimates', es: 'Presupuestos Presenciales Gratuitos' },
   footer_rights: { en: 'All rights reserved.', es: 'Todos los derechos reservados.' },
+  service_gallery: { en: 'Service Gallery', es: 'Galería del Servicio' },
+  service_overview: { en: 'Overview', es: 'Descripción General' },
+  service_included: { en: 'What\'s Included', es: 'Qué Incluye' },
+  service_for_who: { en: 'Who This Service Is For', es: 'Para Quién es este Servicio' },
+  service_why_us: { en: 'Why Choose Waterland Pool\'s', es: '¿Por qué elegir Waterland Pool\'s?' },
 };

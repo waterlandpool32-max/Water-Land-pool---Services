@@ -28,12 +28,12 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s provides reliable pool leak detection services with attention to detail and accurate diagnostics. We focus on identifying the real source of the problem, helping you avoid unnecessary repairs.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1G7cNrCeeCyS7WlBBGOjEPa_ycuOiaiZv&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1fOKSrZuKWVdWm3MKffp4dCBdbp4bfMtD&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1r2XujnOVh90ml5d0G705wCNXmC2GNe5J&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1SyvF6TCu_M0WG0q2Feoejhx3QfTUndyE&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1kABm3MMr9-bgSjX-MOs6qzRvaYdGvagH&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1UQuD7pnkS0zvvRkzCeMnmHPz4EYrHkfX&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1G7cNrCeeCyS7WlBBGOjEPa_ycuOiaiZv',
+      'https://lh3.googleusercontent.com/d/1fOKSrZuKWVdWm3MKffp4dCBdbp4bfMtD',
+      'https://lh3.googleusercontent.com/d/1r2XujnOVh90ml5d0G705wCNXmC2GNe5J',
+      'https://lh3.googleusercontent.com/d/1SyvF6TCu_M0WG0q2Feoejhx3QfTUndyE',
+      'https://lh3.googleusercontent.com/d/1kABm3MMr9-bgSjX-MOs6qzRvaYdGvagH',
+      'https://lh3.googleusercontent.com/d/1UQuD7pnkS0zvvRkzCeMnmHPz4EYrHkfX'
     ]
   },
   'cleaning': {
@@ -56,10 +56,10 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s provides weekly pool cleaning and maintenance service tailored to each pool. We don’t just clean your pool — we maintain it with care, consistency, and attention to detail.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1vOxH1hX4H3WGh1zKDUC5H31yxd6m3BFt&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1BA1yz9fr_OEp9drsS4_P1eCaAiRW55Ls&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1Dw0k3t9e1fs76A3SGHtLovnpIoyeheFF&sz=w1000',
-      'https://drive.google.com/thumbnail?id=11mlnSFtqrh2A5YqqSqW_sJI8NcFtC7nB&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1vOxH1hX4H3WGh1zKDUC5H31yxd6m3BFt',
+      'https://lh3.googleusercontent.com/d/1BA1yz9fr_OEp9drsS4_P1eCaAiRW55Ls',
+      'https://lh3.googleusercontent.com/d/1Dw0k3t9e1fs76A3SGHtLovnpIoyeheFF',
+      'https://lh3.googleusercontent.com/d/11mlnSFtqrh2A5YqqSqW_sJI8NcFtC7nB'
     ]
   },
   'renovations': {
@@ -82,27 +82,57 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s delivers pool and deck renovation services with precision, attention to detail, and high-quality standards. We approach every project with a clear plan.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1_OE0sqKKohsbht0yTj-EtM556Ta0JwZY&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1Kea9VnVb5cT_rWy1xWFk41gDlZNu93jo&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1Ax73isIqeMaAX6nh1-BAwYWUkA1YOV1H&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1Xuhpd8I7hfSVywjuROqaGVcS8P9wdWor&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1pyr6rG7wqrxXO6h-SzGdtWMBkxOhfSgZ&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1VpSTkFPid_G1dlynAoAPf7n0SFV19Tmj&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1PTHxfmnzVIg6sDw8hj4hBM3X6rGwzncG&sz=w1000',
-      'https://drive.google.com/thumbnail?id=14hvOm0aAaRvMrTk-O9p7y8Ont8dVFuuH&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1FxTFiEfbXQ4AWp8No1RV98ZA_0Db0jiC&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1V5V7wcr40a0Xpgq5bgogEtkg_9-cjm6n&sz=w1000',
-      'https://drive.google.com/thumbnail?id=14MC4b7p39dcVR30JfHGaqmswshoW3Er0&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1gjYi7UDdd-IHAg63NwwpAC6W0bmFfN9s&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1n1k-PbraNHNAh8m-aWTIOuiPjuKfUYtQ&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1zXHY6nHhMT0EicgPAgMluW2Uui22WPB4&sz=w1000',
-      'https://drive.google.com/thumbnail?id=17HAweAyQBQiDY5vFAggtPMYwFMUP3krp&sz=w1000',
-      'https://drive.google.com/thumbnail?id=11X3yaNP5-ZZ_d6yo3EtsWCfXOl_TE5Tz&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1fC89i_3tNxsID9dyKERiRoUH86Pt06IX&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1SQRpPaBMghMV47A5e6VAQlEnFHXD6RKM&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1g4EST9df52hAp_nfWKvARtAx8fzi4T0k&sz=w1000',
-      'https://drive.google.com/thumbnail?id=16eKYqqOjJflQhvPVoJukDAy1VHaRccns&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1Tt2QD72zjdLGeBor8F2rXBTExjk2SxTM&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1_OE0sqKKohsbht0yTj-EtM556Ta0JwZY',
+      'https://lh3.googleusercontent.com/d/1Kea9VnVb5cT_rWy1xWFk41gDlZNu93jo',
+      'https://lh3.googleusercontent.com/d/1Ax73isIqeMaAX6nh1-BAwYWUkA1YOV1H',
+      'https://lh3.googleusercontent.com/d/1Xuhpd8I7hfSVywjuROqaGVcS8P9wdWor',
+      'https://lh3.googleusercontent.com/d/1pyr6rG7wqrxXO6h-SzGdtWMBkxOhfSgZ',
+      'https://lh3.googleusercontent.com/d/1PTHxfmnzVIg6sDw8hj4hBM3X6rGwzncG',
+      'https://lh3.googleusercontent.com/d/14hvOm0aAaRvMrTk-O9p7y8Ont8dVFuuH',
+      'https://lh3.googleusercontent.com/d/1FxTFiEfbXQ4AWp8No1RV98ZA_0Db0jiC',
+      'https://lh3.googleusercontent.com/d/1V5V7wcr40a0Xpgq5bgogEtkg_9-cjm6n',
+      'https://lh3.googleusercontent.com/d/14MC4b7p39dcVR30JfHGaqmswshoW3Er0',
+      'https://lh3.googleusercontent.com/d/1gjYi7UDdd-IHAg63NwwpAC6W0bmFfN9s',
+      'https://lh3.googleusercontent.com/d/1zXHY6nHhMT0EicgPAgMluW2Uui22WPB4',
+      'https://lh3.googleusercontent.com/d/1n1k-PbraNHNAh8m-aWTIOuiPjuKfUYtQ',
+      'https://lh3.googleusercontent.com/d/17HAweAyQBQiDY5vFAggtPMYwFMUP3krp',
+      'https://lh3.googleusercontent.com/d/11X3yaNP5-ZZ_d6yo3EtsWCfXOl_TE5Tz',
+      'https://lh3.googleusercontent.com/d/1fC89i_3tNxsID9dyKERiRoUH86Pt06IX',
+      'https://lh3.googleusercontent.com/d/1SQRpPaBMghMV47A5e6VAQlEnFHXD6RKM',
+      'https://lh3.googleusercontent.com/d/1g4EST9df52hAp_nfWKvARtAx8fzi4T0k',
+      'https://lh3.googleusercontent.com/d/16eKYqqOjJflQhvPVoJukDAy1VHaRccns',
+      'https://lh3.googleusercontent.com/d/1Tt2QD72zjdLGeBor8F2rXBTExjk2SxTM',
+      'https://lh3.googleusercontent.com/d/1ecMU1wu_g4BG09xK_9ljDX16wJz9hVK1',
+      'https://lh3.googleusercontent.com/d/1sSNZLN1XrA50Pvr-FAKSzv7lw1wd8EdR',
+      'https://lh3.googleusercontent.com/d/1jcn_oJTh50asbcuGV03_Tr7Xysgsfe5J',
+      'https://lh3.googleusercontent.com/d/1quX12OV_kmin80wSyeKctEnPFci9sWFc',
+      'https://lh3.googleusercontent.com/d/1qlyb0wrAU0PRKmYd2dFDsMerGyCMuaR9',
+      'https://lh3.googleusercontent.com/d/1s3Urh_7SCemg8H9SiZtqrFqvw9MfrgcZ',
+      'https://lh3.googleusercontent.com/d/1TV8NFntWAP1YmcoWq_FucZXaM54zirFp',
+      'https://lh3.googleusercontent.com/d/1-ocofM1LVwOQzFD8S_GKNpafGtBJb-PP',
+      'https://lh3.googleusercontent.com/d/131_odQvjz2CtQ6cbT9QdQy14SVT0BswB',
+      'https://lh3.googleusercontent.com/d/1FXsYcHoSdxmdpZJ3DwaK-RpvREuyUKbr',
+      'https://lh3.googleusercontent.com/d/1uC7IDN3HA0WX7P1xmJAwgjBwwTVgz_3C',
+      'https://lh3.googleusercontent.com/d/1cQ5AuR-65qgeJNqQ7peSpFropfxBI0s6',
+      'https://lh3.googleusercontent.com/d/1EcT4ajST3C2cpLnwxlU4-765CKKg4p8o',
+      'https://lh3.googleusercontent.com/d/1giQjDv8oYFhrRDtNK8y4JOWazl8ebwBH',
+      'https://lh3.googleusercontent.com/d/1ZvFXIkOmcVkTWYEEE3DOYYidmyCMpkiX',
+      'https://lh3.googleusercontent.com/d/1g4KbPN25L02t0BhSOe0gGE3F1cI7Hk9F',
+      'https://lh3.googleusercontent.com/d/1qYiToTN-bBHEn6iqH_-tyH0Gs4_7lz12',
+      'https://lh3.googleusercontent.com/d/1Z0UcAdjTZTp_yjLcOkdUIUMC2u9_NbZF',
+      'https://lh3.googleusercontent.com/d/1DRAJIrUGJkYK7NhM3gaoif0O_9rp2Csb',
+      'https://lh3.googleusercontent.com/d/1m04VdD9qmwZbMuL9TlTYpbTZZrqXIr8N',
+      'https://lh3.googleusercontent.com/d/1KLYkiGHKR5nhQDWOu5TI7qSrXaNaVcqH',
+      'https://lh3.googleusercontent.com/d/1tJoOH74hpbf-TiEDBDg_HmepIIwUJWdT',
+      'https://lh3.googleusercontent.com/d/17RMYzNecHhOrlBo7qc1OV4UL8F-5-yt7',
+      'https://lh3.googleusercontent.com/d/1YRMd579Ro_aUXg34aew9v-NckFe7V4mc',
+      'https://lh3.googleusercontent.com/d/1Lb1vp_1jKI3a_zugBC9wpMcEdeMiuEDj',
+      'https://lh3.googleusercontent.com/d/1PCYQk1aIIYsDcucahM8H6TCAqzipSmRq',
+      'https://lh3.googleusercontent.com/d/170CWHblagA8A4IPkcpqBshvZ_Lwe-En6',
+      'https://lh3.googleusercontent.com/d/1U1Srlm7rTsJ66n0isDzYR75L1yJKiwst',
+      'https://lh3.googleusercontent.com/d/1Bdm4d5DAUmTZc-GjOkwfjm6GW0-2rPXW',
+      'https://lh3.googleusercontent.com/d/1r_J56RRRjuHPeI3ehctgy7ZnPgLbegka',
+      'https://lh3.googleusercontent.com/d/1p4sXrthu4nL9sXeqDqYfoS5awlTuOHFi'
     ]
   },
   'equipment': {
@@ -125,17 +155,17 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s delivers pool equipment repair and installation services with precision and reliability. We focus on accurate diagnostics.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1b_uZNoNXCoZHjtzDyC_XDCef-cPV2q_Y&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1O9UTOtTnH03oPFmgPPhOtC-Ox2S6AdFi&sz=w1000',
-      'https://drive.google.com/thumbnail?id=19E7M0TkC1WqzY-3LIzV8Xf2GnFr8fRoi&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1TxR3hPravMqsq4KOcWVK84U1PlxOAQsC&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1kqlvw0z8GFpZl_glwR6DCaKTWlILBoZB&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1iHMrq7B_JMXM6dXXX2DEjSvKaYNHPgjT&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1DABob9edxsP7MqcHx1k91qjkOGpyKvpO&sz=w1000',
-      'https://drive.google.com/thumbnail?id=17YWIS00G3j2BObVYsrC3jYU5iN14lhJt&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1BBZ3dCkertGeBj8LnDJE3xLTa7i4twHc&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1xNw-8NTC4kDx6ri_TpA0eBTzD9IAC_FS&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1OQ3nOaSn4VI_5tdGZZ3cUm4hPt4DgAux&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1b_uZNoNXCoZHjtzDyC_XDCef-cPV2q_Y',
+      'https://lh3.googleusercontent.com/d/1O9UTOtTnH03oPFmgPPhOtC-Ox2S6AdFi',
+      'https://lh3.googleusercontent.com/d/19E7M0TkC1WqzY-3LIzV8Xf2GnFr8fRoi',
+      'https://lh3.googleusercontent.com/d/1TxR3hPravMqsq4KOcWVK84U1PlxOAQsC',
+      'https://lh3.googleusercontent.com/d/1kqlvw0z8GFpZl_glwR6DCaKTWlILBoZB',
+      'https://lh3.googleusercontent.com/d/1iHMrq7B_JMXM6dXXX2DEjSvKaYNHPgjT',
+      'https://lh3.googleusercontent.com/d/1DABob9edxsP7MqcHx1k91qjkOGpyKvpO',
+      'https://lh3.googleusercontent.com/d/17YWIS00G3j2BObVYsrC3jYU5iN14lhJt',
+      'https://lh3.googleusercontent.com/d/1BBZ3dCkertGeBj8LnDJE3xLTa7i4twHc',
+      'https://lh3.googleusercontent.com/d/1xNw-8NTC4kDx6ri_TpA0eBTzD9IAC_FS',
+      'https://lh3.googleusercontent.com/d/1OQ3nOaSn4VI_5tdGZZ3cUm4hPt4DgAux'
     ]
   },
   'sealing': {
@@ -158,13 +188,13 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s delivers professional paver sealing services with attention to detail and high-quality materials.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1k4HgGZbEulyla1j4mfgR8wfOodZ4bBMu&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1jySjSad9WquGUZYsduF-Ix9j17_r2HeM&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1yTjcYUYi765bzkdTeJRt6qWen3_qgrFg&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1cqzekuspmO1m-XpleZWEVyEdAssZf1Pu&sz=w1000',
-      'https://drive.google.com/thumbnail?id=189PF87c_rU5CWUKzggHFtVYgSSuz47-g&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1_kJBKGFkgWvIU5rb7TuYfkGkp1DHXs57&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1GmL1hVyjHK4sRhQlb2X6_49BRpHRx8EB&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1k4HgGZbEulyla1j4mfgR8wfOodZ4bBMu',
+      'https://lh3.googleusercontent.com/d/1jySjSad9WquGUZYsduF-Ix9j17_r2HeM',
+      'https://lh3.googleusercontent.com/d/1yTjcYUYi765bzkdTeJRt6qWen3_qgrFg',
+      'https://lh3.googleusercontent.com/d/1cqzekuspmO1m-XpleZWEVyEdAssZf1Pu',
+      'https://lh3.googleusercontent.com/d/189PF87c_rU5CWUKzggHFtVYgSSuz47-g',
+      'https://lh3.googleusercontent.com/d/1_kJBKGFkgWvIU5rb7TuYfkGkp1DHXs57',
+      'https://lh3.googleusercontent.com/d/1GmL1hVyjHK4sRhQlb2X6_49BRpHRx8EB'
     ]
   },
   'acid-wash': {
@@ -187,17 +217,10 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s provides acid wash and deep pool cleaning services with precision and attention to detail.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1b_uZNoNXCoZHjtzDyC_XDCef-cPV2q_Y&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1O9UTOtTnH03oPFmgPPhOtC-Ox2S6AdFi&sz=w1000',
-      'https://drive.google.com/thumbnail?id=19E7M0TkC1WqzY-3LIzV8Xf2GnFr8fRoi&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1TxR3hPravMqsq4KOcWVK84U1PlxOAQsC&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1kqlvw0z8GFpZl_glwR6DCaKTWlILBoZB&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1iHMrq7B_JMXM6dXXX2DEjSvKaYNHPgjT&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1DABob9edxsP7MqcHx1k91qjkOGpyKvpO&sz=w1000',
-      'https://drive.google.com/thumbnail?id=17YWIS00G3j2BObVYsrC3jYU5iN14lhJt&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1BBZ3dCkertGeBj8LnDJE3xLTa7i4twHc&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1xNw-8NTC4kDx6ri_TpA0eBTzD9IAC_FS&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1OQ3nOaSn4VI_5tdGZZ3cUm4hPt4DgAux&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1WdVv3Kyckpuno-FKMDmL9QKjNKg05uW5',
+      'https://lh3.googleusercontent.com/d/1m3oMEFWKAK95C3wminqPJa4kRADpemKG',
+      'https://lh3.googleusercontent.com/d/1pPqMFh8AE0Zl8BYQk5AWCqGyNB1ioCGj',
+      'https://lh3.googleusercontent.com/d/17-j9GmoZcF9FXuAdDPsW29Op7Z4n1ej5'
     ]
   },
   'automation': {
@@ -220,12 +243,12 @@ export const serviceData: Record<string, Service> = {
     ],
     whyUs: 'With over 20 years of experience, Waterland Pool\'s delivers pool automation and control system solutions with precision and attention to detail.',
     gallery: [
-      'https://drive.google.com/thumbnail?id=1IQjR_cl3jmU1G3iBo672fvS_ULRb1kns&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1_hbsX3Yd8PO3sUfaXY2BciS9oXk-7b-n&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1NxWCNNa_clXJ6UnyYOhvfnk-xXGi1JeF&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1J70R9zxeydHoUUw4Pvdvbcy4NjynTEqa&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1K81_Eblq-4pDioKrnhD5Gt7Y-azPxaV8&sz=w1000',
-      'https://drive.google.com/thumbnail?id=1OOICpmawi2SMmKXo-f0YxYV4_PKGbwJh&sz=w1000'
+      'https://lh3.googleusercontent.com/d/1IQjR_cl3jmU1G3iBo672fvS_ULRb1kns',
+      'https://lh3.googleusercontent.com/d/1_hbsX3Yd8PO3sUfaXY2BciS9oXk-7b-n',
+      'https://lh3.googleusercontent.com/d/1NxWCNNa_clXJ6UnyYOhvfnk-xXGi1JeF',
+      'https://lh3.googleusercontent.com/d/1J70R9zxeydHoUUw4Pvdvbcy4NjynTEqa',
+      'https://lh3.googleusercontent.com/d/1K81_Eblq-4pDioKrnhD5Gt7Y-azPxaV8',
+      'https://lh3.googleusercontent.com/d/1OOICpmawi2SMmKXo-f0YxYV4_PKGbwJh'
     ]
   }
 };
