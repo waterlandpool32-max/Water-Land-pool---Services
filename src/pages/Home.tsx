@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { Droplets, ShieldCheck, Clock, Users, ChevronRight } from 'lucide-react';
 import EstimateForm from '../components/EstimateForm';
+import CTASection from '../components/CTASection';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -26,7 +27,7 @@ export default function Home() {
             alt="Luxury Pool"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/90 to-brand-dark/40"></div>
+          <div className="absolute inset-0 bg-brand-dark/70 backdrop-blur-[2px]"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -42,7 +43,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
               {t('hero_title')}
             </h1>
-            <p className="text-xl text-slate-200 max-w-xl leading-relaxed">
+            <p className="text-xl text-slate-100 max-w-xl leading-relaxed font-medium">
               {t('hero_subtitle')}
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
@@ -63,6 +64,13 @@ export default function Home() {
           >
             <EstimateForm />
           </motion.div>
+        </div>
+
+        {/* Wave Effect */}
+        <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
+          <svg className="relative block w-full h-[40px] md:h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C58.47,104.7,128.22,113.5,197.39,107.47,248.43,103.05,284.41,75.07,321.39,56.44Z" fill="#ffffff"></path>
+          </svg>
         </div>
       </section>
 
@@ -133,14 +141,21 @@ export default function Home() {
 
       {/* Why Choose Us */}
       <section className="py-24 bg-brand-dark text-white overflow-hidden relative">
+        {/* Top Wave */}
+        <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-10 rotate-180">
+          <svg className="relative block w-full h-[40px] md:h-[60px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C58.47,104.7,128.22,113.5,197.39,107.47,248.43,103.05,284.41,75.07,321.39,56.44Z" fill="#f8fafc"></path>
+          </svg>
+        </div>
+
         <div className="absolute inset-0 z-0">
           <img 
             src="https://i.postimg.cc/cLWHcncT/piscina.png" 
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover"
             alt="Pool Background"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-brand-dark/40"></div>
+          <div className="absolute inset-0 bg-brand-dark/70 backdrop-blur-[2px]"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -176,6 +191,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <CTASection />
     </div>
   );
 }

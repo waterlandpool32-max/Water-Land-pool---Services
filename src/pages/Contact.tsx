@@ -3,26 +3,17 @@ import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import EstimateForm from '../components/EstimateForm';
+import HeroSection from '../components/HeroSection';
 
 export default function Contact() {
   const { t } = useLanguage();
 
   return (
     <div className="pt-20">
-      <section className="bg-brand-dark py-24 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold mb-6"
-          >
-            {t('contact_hero_title')}
-          </motion.h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {t('contact_hero_subtitle')}
-          </p>
-        </div>
-      </section>
+      <HeroSection 
+        title={t('contact_hero_title')}
+        subtitle={t('contact_hero_subtitle')}
+      />
 
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

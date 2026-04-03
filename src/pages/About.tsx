@@ -2,27 +2,18 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { Target, Eye, Heart } from 'lucide-react';
+import HeroSection from '../components/HeroSection';
+import CTASection from '../components/CTASection';
 
 export default function About() {
   const { t } = useLanguage();
 
   return (
     <div className="pt-20">
-      {/* Hero */}
-      <section className="bg-brand-dark py-24 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold mb-6"
-          >
-            {t('about_hero_title')}
-          </motion.h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {t('about_hero_subtitle')}
-          </p>
-        </div>
-      </section>
+      <HeroSection 
+        title={t('about_hero_title')}
+        subtitle={t('about_hero_subtitle')}
+      />
 
       {/* Story */}
       <section className="py-24 bg-white">
@@ -84,6 +75,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <CTASection />
     </div>
   );
 }

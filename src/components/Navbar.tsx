@@ -29,17 +29,12 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed w-full z-50 transition-all duration-300 bg-white shadow-md py-2">
+    <nav className="fixed w-full z-50 transition-all duration-300 bg-white shadow-md py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center text-slate-700">
-            <img 
-              src="https://i.postimg.cc/Dwjpnqm1/Logo-Waterland-Pools-removebg-preview.png" 
-              alt="Waterland Pools" 
-              className="h-[77px] w-auto transition-all"
-              referrerPolicy="no-referrer"
-            />
-          </Link>
+        <div className="flex justify-between items-center h-24">
+          <div className="flex items-center">
+            {/* Logo removed as requested */}
+          </div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">

@@ -3,6 +3,8 @@ import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import HeroSection from '../components/HeroSection';
+import CTASection from '../components/CTASection';
 
 interface ServiceDetailProps {
   title: string;
@@ -19,22 +21,12 @@ export default function ServiceDetail({ title, subtitle, description, included, 
 
   return (
     <div className="pt-20">
-      <section className="bg-brand-dark py-24 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold mb-6"
-          >
-            {title}
-          </motion.h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {subtitle}
-          </p>
-        </div>
-      </section>
+      <HeroSection 
+        title={title}
+        subtitle={subtitle}
+      />
 
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white relative z-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             <div className="lg:col-span-2 space-y-12">
@@ -110,6 +102,8 @@ export default function ServiceDetail({ title, subtitle, description, included, 
           </div>
         </div>
       </section>
+
+      <CTASection />
     </div>
   );
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'motion/react';
 import { serviceData } from '../data/services';
+import HeroSection from '../components/HeroSection';
+import CTASection from '../components/CTASection';
 
 export default function Portfolio() {
   const { t } = useLanguage();
@@ -19,20 +21,10 @@ export default function Portfolio() {
 
   return (
     <div className="pt-20">
-      <section className="bg-brand-dark py-24 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold mb-6"
-          >
-            {t('portfolio_hero_title')}
-          </motion.h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {t('portfolio_hero_subtitle')}
-          </p>
-        </div>
-      </section>
+      <HeroSection 
+        title={t('portfolio_hero_title')}
+        subtitle={t('portfolio_hero_subtitle')}
+      />
 
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,16 +51,10 @@ export default function Portfolio() {
               </motion.div>
             ))}
           </div>
-
-          <div className="mt-20 bg-slate-50 p-12 rounded-[3rem] text-center space-y-6">
-            <h2 className="text-3xl font-bold text-brand-dark">{t('portfolio_cta_title')}</h2>
-            <p className="text-slate-600">{t('portfolio_cta_subtitle')}</p>
-            <a href="/contact" className="btn-primary inline-block">
-              {t('cta_schedule')}
-            </a>
-          </div>
         </div>
       </section>
+
+      <CTASection />
     </div>
   );
 }

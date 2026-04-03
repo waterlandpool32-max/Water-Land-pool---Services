@@ -14,9 +14,9 @@ export default function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center">
               <img 
-                src="https://i.postimg.cc/Dwjpnqm1/Logo-Waterland-Pools-removebg-preview.png" 
+                src="https://lh3.googleusercontent.com/d/1KAtvGrDfRpj5nUm6Z414uoBDxbFRXNqN=w200?authuser=0" 
                 alt="Waterland Pools" 
-                className="h-[102px] w-auto brightness-0 invert"
+                className="h-[100px] w-auto brightness-0 invert"
                 referrerPolicy="no-referrer"
               />
             </Link>
@@ -46,15 +46,22 @@ export default function Footer() {
             <ul className="space-y-4 text-slate-300 text-sm">
               <li className="flex items-start space-x-3">
                 <Phone size={18} className="text-brand-light shrink-0" />
-                <span>+1 (407) 722-2606</span>
+                <a href="tel:+14077222606" className="hover:text-brand-light transition-colors">+1 (407) 722-2606</a>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={18} className="text-brand-light shrink-0" />
-                <span>sales@waterlandpoolsfl.com</span>
+                <a href="mailto:sales@waterlandpoolsfl.com" className="hover:text-brand-light transition-colors">sales@waterlandpoolsfl.com</a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-brand-light shrink-0" />
-                <span>5973 Windhover Drive, Orlando, FL 32819</span>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=5973+Windhover+Drive,+Orlando,+FL+32819" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-brand-light transition-colors"
+                >
+                  5973 Windhover Drive, Orlando, FL 32819
+                </a>
               </li>
             </ul>
           </div>
